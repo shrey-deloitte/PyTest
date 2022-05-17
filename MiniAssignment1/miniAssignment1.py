@@ -1,7 +1,7 @@
 from collections import Counter
 from itertools import combinations
 
-
+#question 1
 class StringClass:
 
     def __init__(self, value):
@@ -14,7 +14,7 @@ class StringClass:
         list1 = list(value)
         return list1
 
-
+#question 2
 class PairsPossible(StringClass):
 
     def __init__(self, value):
@@ -24,7 +24,7 @@ class PairsPossible(StringClass):
         pair = list(combinations(self.str, 2))
         return pair
 
-
+#question 3
 class SearchCommonElements:
 
     def __init__(self, input1, input2):
@@ -41,7 +41,7 @@ class SearchCommonElements:
                 common_elements.append(key)
         return common_elements
 
-
+#question 4
 class EqualSumPairs:
 
     def count(self, list1):
